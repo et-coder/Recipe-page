@@ -1,0 +1,167 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 0 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "Young Serif", sans-serif;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 0.7em;
+    line-height: 1;
+}
+
+img {
+    margin-bottom: 1em;
+    padding: 0;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.5;
+}
+
+h2 {
+    margin: 0em 0 0.7em;
+    color: hsl(14, 45%, 36%);
+    font-size: 2rem;
+}
+
+.prep-time {
+    margin: 2em 0 1em;
+    padding: 1em 2em;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1em;
+}
+
+.prep-time p {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 0.75em;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.prep-time ul {
+    padding: 0 1em;
+}
+
+li {
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 0.3em;
+    color: hsl(30, 10%, 34%);
+    font-size: 1rem;
+    padding-left: 1em;
+    line-height: 1.5;
+}
+
+.ingredients ul {
+    padding-left: 1.5em;
+}
+
+.ingredients,
+.instructions {
+    padding: 1.5em 0em;
+    border-bottom: 1px solid grey;
+}
+
+
+.instructions ol {
+    margin-left: 1.5em;
+}
+
+.nutrition {
+    padding: 1.5em 0;
+}
+
+table {
+    width: 100%;
+    padding: 1em;
+    text-align: left;
+    border-collapse: collapse;
+
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+
+
+th,
+td {
+    font-family: 'Outfit';
+    padding: 1em 4em 1em 1em;
+    color: hsl(30, 10%, 34%);
+}
+
+th {
+    font-weight: 400;
+}
+
+td {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+table tr:last-child {
+    border: none;
+}
+
+.attribution {
+    padding: 1em;
+    background-color: hsl(330, 100%, 98%);
+}
+
+@media only screen and (min-width: 376px) {
+    html {
+        background-color: hsl(330, 100%, 98%);
+        padding: 2em;
+    }
+
+    body {
+        background-color: white;
+        border-radius: 1em;
+        padding: 0;
+    }
+
+    section {
+        padding: 1em 1em 0;
+    }
+
+    img {
+        padding: 1em 1em 0;
+        margin-bottom: 1em;
+        border-radius: 1.5rem;
+    }
+
+    .attribution {
+        width: 100%;
+        border-radius: 0 0 1em 1em;
+        background: lightgray;
+    }
+
+    .ingredients,
+    .instructions,
+    .nutrition {
+        padding: 1.5em 1em;
+    }
+}
