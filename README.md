@@ -20,8 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/simple-omelette-recipe-page-UQ9Kqcmxwc)
+- Live Site URL: [Live site](https://et-coder.github.io/Recipe-page/)
 
 ## My process
 
@@ -37,7 +37,7 @@ I learned how to write semantic html and apply different css styles to the html 
 
 ## Author
 
-- Website - [Natnael Dejene](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Natnael Dejene](https://github.com/et-coder)
+- Frontend Mentor - [@et-coder](https://www.frontendmentor.io/profile/et-coder)
+
 
